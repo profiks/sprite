@@ -1,0 +1,76 @@
+body {
+        background: #ddd;
+    position: relative;
+    }
+    
+        html, body {
+            min-width: 200px;
+        }
+h1, h3{
+        text-shadow: -2px 5px 2px rgba(150, 150, 150, 1);
+        color:#fff;
+        font-family: sans-serif;
+        text-align: center;
+   } 
+   
+h1{ font-size: 50px;}
+p {    
+        color:#363636;     
+        font-family: sans-serif;
+        text-align: center;
+    }   
+
+
+footer {
+width:100%;
+height:80px;
+position:absolute;
+bottom:-300px;
+left:0;
+}
+
+nav div {
+         margin: 10px;
+        -o-transition: all .2s;
+        -moz-transition: all .2s;
+        -webkit-transition: all .2s;
+        -ms-transition: all .2s;
+    }
+        
+.facebook, .google, .linkedin, .skype, .twitter, .youtube{ 
+        float: left;
+        width: 84px;
+        height: 84px;
+    }    
+    
+nav {
+        width: 684px;
+        margin: 0 auto;        
+    }
+     
+ /* sprite  */       
+    .facebook { background: url(sprite.png) no-repeat 0 0;  }
+    .facebook:hover{background: url(sprite.png) no-repeat 0 -84px;}
+    .facebook:active{ background: url(sprite.png) no-repeat 0 -168px; }
+        
+    .google{ background: url(sprite.png) no-repeat -252px 0;  }        
+    .google:hover{background: url(sprite.png) no-repeat -252px -84px;}
+    .google:active{ background: url(sprite.png) no-repeat -252px -168px; }
+        
+    .linkedin{ background: url(sprite.png) no-repeat -336px 0;  }        
+    .linkedin:hover{background: url(sprite.png) no-repeat -336px -84px;}
+    .linkedin:active{ background: url(sprite.png) no-repeat -336px -168px; }
+    
+    .skype{ background: url(sprite.png) no-repeat -588px 0;  }        
+    .skype:hover{background: url(sprite.png) no-repeat -588px -84px;}
+    .skype:active{ background: url(sprite.png) no-repeat -588px -168px; }
+        
+    .twitter{ background: url(sprite.png) no-repeat -672px 0;  }        
+    .twitter:hover{background: url(sprite.png) no-repeat -672px -84px;}
+    .twitter:active{ background: url(sprite.png) no-repeat -672px -168px; }
+        
+    .youtube{ background: url(sprite.png) no-repeat -840px 0;  }        
+    .youtube:hover{background: url(sprite.png) no-repeat -840px -84px;}
+    .youtube:active{ background: url(sprite.png) no-repeat -840px -168px; }
+  
+
